@@ -1,0 +1,29 @@
+Software Requirements
+===============================================
+Python: Version 3.6 or higher.
+Django: Version 3.0 or higher.
+Django REST framework: For building APIs.
+djangorestframework-simplejwt: For handling authentication using JSON Web Tokens (JWT).
+Django cache backend: Such as django-redis for implementing rate limiting.
+Step-by-Step Setup and Implementation
+
+1. Install Django and other dependencies:
+
+2.Start a new Django project:
+3.Start a new Django app: 
+4.Add the app and other required apps to INSTALLED_APPS in settings.py:
+5. Configure Custom User Model
+6. Set the custom user model in settings.py: 
+7. Make and apply migrations: 
+8. implement Friend Request Functionality
+9. Create views for sending and responding to friend requests
+10.Define URLs for   socialnetworking
+11.include app URLs in the projects urls.py
+12. Authentication Setup 
+  12.1 Configure JWT authentication in settings.py 
+  12.2  Add JWT URLs in the projects urls.py: 
+
+13. Testing the Functionality 
+     13.1  Run the server:
+     python manage.py runserver
+
